@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Useref from './Practice/Useref';
 //import TodoContainer from './Components/TodoContainer';o
-//import Hooks from "./Practice/Hooks"
+import Hooks from "./Practice/Hooks"
 
 
 
@@ -10,8 +10,8 @@ import Useref from './Practice/Useref';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Hooks/> */}
-    <Useref/>
+     <Hooks/> 
+    {/* <Useref/> */}
   </React.StrictMode>
 );
 
