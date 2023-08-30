@@ -5,6 +5,8 @@ import Forms from "./Forms";
 import Useref2 from "./Useref2";
 import Routing from "./Routing";
 import Routing1 from "./Routing1";
+//import { Context } from "react";
+import Context1 from "./Context1";
 
 
 function Hooks() {
@@ -16,7 +18,8 @@ function Hooks() {
       {/* <Forms/> */}
       {/* <Useref2/> */}
       {/* <Routing/> */}
-      <Routing1/>
+      {/* <Routing1/> */}
+      <Context1/>
     </>
   );
 }
