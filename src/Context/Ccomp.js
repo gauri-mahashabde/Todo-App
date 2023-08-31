@@ -3,7 +3,10 @@ import React, { Component } from 'react'
 export default class Ccomp extends Component {
   render() {
     return (
-      <div>Ccomp</div>
+      <div>
+        <h1>Component C</h1>
+        {this.props.name}
+      </div>
     )
   }
 }
