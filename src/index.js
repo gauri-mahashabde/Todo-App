@@ -4,6 +4,7 @@ import Useref from './Practice/Useref';
 //import TodoContainer from './Components/TodoContainer';o
 import Hooks from "./Practice/Hooks"
 import App from './Routing/App';
+import Acomp from './Context/Acomp'
 
 
 
@@ -12,8 +13,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App/> */}
-      <Hooks/>  
+      {/* <Hooks/>   */}
     {/* <Useref/> */}
+    <Acomp/>
   </React.StrictMode>
 );
 
