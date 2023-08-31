@@ -5,7 +5,7 @@ export default class Ccomp extends Component {
     return (
       <div>
         <h1>Component C</h1>
-        {this.props.name}
+        {/* {this.props.name} */}
       </div>
     )
   }
